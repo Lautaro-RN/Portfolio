@@ -1,0 +1,21 @@
+				Barra de navegación
+------------------------------------------------
+				Nombre y apellido
+
+		     		 Lema
+------------------------------------------------
+
+	(Sobre mí)
+
+------------------------------------------------
+			Principales proyectos
+Proyecto 1	     Proyecto 2	     Proyecto 3
+Proyecto 4	     Proyecto 5	     Proyecto 6...
+------------------------------------------------
+	       Habilidades y conocimientos
+HTML5	   CSS3			  JS		    JS-Bt
+PHP5	   MySQL		MariaDB     Py
+HTTPS...
+------------------------------------------------
+		    		Contacto
+LinkedIn				@				GitHub	
