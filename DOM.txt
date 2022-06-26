@@ -1,8 +1,41 @@
+(Barra de navegación)                     _____
+										  _____
+										  _____
+------------------------------------------------
+				Nombre y apellido
+
+		     		  Lema
+------------------------------------------------
+
+	(Sobre mí)
+
+------------------------------------------------
+			 Principales proyectos
+Proyecto 1	     Proyecto 2	     Proyecto 3
+Proyecto 4	     Proyecto 5	     Proyecto 6...
+------------------------------------------------
+	       Habilidades y conocimientos
+HTML5	     CSS3		   JS6		Bootstrap5
+Responsive   PHP7		  MySQL		  MariaDB
+HTTPS...	 Git      	  Python
+------------------------------------------------
+		    		Contacto
+LinkedIn				@				GitHub	
+------------------------------------------------
+Hecho por L Franco fullstack web dev    (arriba)
+
+
+
+
+
+
+
+
 				Barra de navegación
 ------------------------------------------------
 				Nombre y apellido
 
-		     		 Lema
+		     		  Lema
 ------------------------------------------------
 
 	(Sobre mí)
@@ -13,9 +46,11 @@ Proyecto 1	     Proyecto 2	     Proyecto 3
 Proyecto 4	     Proyecto 5	     Proyecto 6...
 ------------------------------------------------
 	       Habilidades y conocimientos
-HTML5	   CSS3			  JS		    JS-Bt
-PHP5	   MySQL		MariaDB     Py
-HTTPS...
+HTML5	   CSS3			  JS		Bootstrap5
+PHP7	   MySQL		MariaDB       Python
+HTTPS...	Git
 ------------------------------------------------
 		    		Contacto
 LinkedIn				@				GitHub	
+------------------------------------------------
+Hecho por L Franco fullstack web dev    (arriba)

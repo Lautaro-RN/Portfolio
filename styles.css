@@ -1,6 +1,47 @@
-html {font-size: 100%;}
+html {font-size: 100%; background: black;}
 
 body, section, footer {
-	margin:0;
 	padding:0;
+	width: 100%;
 }
+
+h1, h2, h3, h4, h5, h6, {margin: 0px;}
+
+header {
+	background: blue;
+	height: 72px;
+}
+
+.section_padding{padding: 6px 10px 1px 10px;}
+
+.paragraph_low_mr_bo {margin-bottom: 0px;}
+
+#capo {background: red;}
+
+#sobre_mi {
+	background: yellow;
+	margin-bottom: 0px;
+}
+
+#proyectos {
+ 	background: purple;
+}
+
+#gnocimientos {
+	background: orangered;
+}
+
+#contacto {
+	background: green;
+	padding-bottom: 5px;
+}
+
+#pie {
+	background: blue;
+}
+	#marca{
+		background: steelblue;
+	}
+	#up {
+		background: mediumblue;
+	}
