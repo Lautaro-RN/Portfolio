@@ -1,27 +1,51 @@
-html {font-size: 100%; background: black;}
+html {font-size: 100%;}
 
 body, section, footer {
 	padding:0;
-	width: 100%;
+	width: 98%;
+	margin-left: 2%;
 }
 
 h1, h2, h3, h4, h5, h6, {margin: 0px;}
 
-header {
-	background: blue;
-	height: 72px;
-}
+header {height: 72px;}
 
 .section_padding{padding: 6px 10px 1px 10px;}
 
-.paragraph_low_mr_bo {margin-bottom: 0px;}
+.paragraph_low_mr_bo{margin-bottom:10px;}
 
-#capo {background: red;}
+.font{font-family: Monaco, "Lucida Console", monospace;color: azure;}
+
+#capo {
+	height: 20rem;
+	background-image: url("mm/a.png");
+	/*
+Free-use img from https://pixabay.com/photos/programming-html-css-javascript-1873854/
+	*/
+	max-width: 98%;
+	opacity: 0.7;
+	margin-left: 2%;
+	}
+	#div_capo{
+		background-color:black;
+		opacity:0.9;
+		width:80%;
+		margin-left:10%;
+	}
+		#txt_capo{
+			color: #10DC10;
+			font-family: Verdana,Arial,sans-serif;
+		}
 
 #sobre_mi {
-	background: yellow;
-	margin-bottom: 0px;
+	background: #1D3537;
+	margin-bottom: 0px; padding: 2% 10%;
 }
+	#sobre_mi h2{
+		text-align: center;
+		margin-top: 5px;
+		color: #1E8AD3; font-weight: bold;
+	}
 
 #proyectos {
  	background: purple;
@@ -45,3 +69,4 @@ header {
 	#up {
 		background: mediumblue;
 	}
+

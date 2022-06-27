@@ -1,13 +1,17 @@
-(Barra de navegación)                     _____
-										  _____
-										  _____
+(Barra de navegación)                     
+______
+______
+______
 ------------------------------------------------
 				Nombre y apellido
 
 		     		  Lema
 ------------------------------------------------
 
-	(Sobre mí)
+	(Sobre mí)...
+	...
+	...
+	...
 
 ------------------------------------------------
 			 Principales proyectos
@@ -32,13 +36,16 @@ Hecho por L Franco fullstack web dev    (arriba)
 
 
 				Barra de navegación
+							1	2	3	4	5
 ------------------------------------------------
 				Nombre y apellido
 
 		     		  Lema
 ------------------------------------------------
 
-	(Sobre mí)
+	(Sobre mí)...
+	...
+	...
 
 ------------------------------------------------
 			Principales proyectos
