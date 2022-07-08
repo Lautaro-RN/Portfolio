@@ -1,62 +1,48 @@
-html {font-size: 100%;}
+/*for all dev, movile first*/
 
-body, section, footer {
-	padding:0;
-	width: 98%;
-	margin-left: 2%;
-}
+html{font-size: 100%;}
 
-h1, h2, h3, h4, h5, h6, {margin: 0px;}
+body,section,footer{padding:0;width:98%;margin-left:2%;}
 
-header {height: 72px;}
+h1,h2,h3,h4,h5,h6,{margin:0px;}
+
+header{height:72px;}
 
 .section_padding{padding: 6px 10px 1px 10px;}
-
 .paragraph_low_mr_bo{margin-bottom:10px;}
-
-.font{font-family: Monaco, "Lucida Console", monospace;color: azure;}
+.font{font-family:Monaco,"Lucida Console",monospace;color:azure;}
+.font_title{text-align:center;margin-top:5px;color:#1E8AD3;font-weight:bold;font-size:40px}
+.bg_color{background: #1D3537;}
+.align-ct{text-align: center;}
+.top_border_sty{border-top: 1px dashed limegreen;height:25px;width:80%;margin:auto;}
+.gnoc_img{height:30vh;}
+.mrgn_h3_img{margin-top:5px;}
 
 #capo {
-	height: 20rem;
-	background-image: url("mm/a.png");
-	/*
-Free-use img from https://pixabay.com/photos/programming-html-css-javascript-1873854/
-	*/
-	max-width: 98%;
-	opacity: 0.7;
-	margin-left: 2%;
+	height:85vh;
+	background-image:url("mm/a.png");/*Free-use img from https://pixabay.com/photos/programming-html-css-javascript-1873854/ _*/
+	max-width:98%;
+	opacity:0.7;
+	margin-left:2%;
 	}
 	#div_capo{
 		background-color:black;
 		opacity:0.9;
-		width:80%;
-		margin-left:10%;
+		width:70%;
+		margin:auto;
+		padding-top:8px;
 	}
-		#txt_capo{
+		#div_capo h1{
 			color: #10DC10;
-			font-family: Verdana,Arial,sans-serif;
+			font:Verdana,sans-serif,bold,;font-size:7vw;
 		}
+		#div_capo h2{font-size: 5vw;}
 
-#sobre_mi {
-	background: #1D3537;
-	margin-bottom: 0px; padding: 2% 10%;
-}
-	#sobre_mi h2{
-		text-align: center;
-		margin-top: 5px;
-		color: #1E8AD3; font-weight: bold;
-	}
+#sobre_mi{margin-bottom:0px;padding: 4% 10%;}
 
-#proyectos {
- 	background: purple;
-}
-
-#gnocimientos {
-	background: orangered;
-}
-
+#proyectos{padding-bottom: 1px;margin-bottom: 0px;}
+#gnocimientos {}
 #contacto {
-	background: green;
 	padding-bottom: 5px;
 }
 
@@ -70,3 +56,14 @@ Free-use img from https://pixabay.com/photos/programming-html-css-javascript-187
 		background: mediumblue;
 	}
 
+
+/*for bigger devices*/
+@media all and (min-width:768px){
+	.gnoc_img{height:100px;}
+	.font_title{font-size:50px}
+
+	#capo{height:20rem;}
+		#div_capo{width:55%;}
+			#div_capo h1{font-size:50px;}
+			#div_capo h2{font-size:35px;}
+}
