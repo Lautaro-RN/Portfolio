@@ -1,0 +1,29 @@
+PSC modal envío form mail
+
+---------------------------------
+
+	<? INICIO
+	    ||
+	    \/
+(Relleno de formulario)
+	    ||
+	    \/
+| function listen 'onclick()' |
+	    ||
+	    \/
+	   try{
+     //connect to www
+  target,toggle="#enviado"
+    activar modal éxito
+	  }catch{
+ modal error de conexión}
+	    ||
+	    \/
+  submit a phpmailer.php
+	    ||
+	    \/
+	  {... }
+	    ||
+	    \/
+	  FIN ?>
+	
