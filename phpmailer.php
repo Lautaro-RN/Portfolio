@@ -48,15 +48,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		    $mail->isSMTP();
 		    $mail->Host      = 'smtp.mail.yahoo.com';
 		    $mail->SMTPAuth  = true;
-		    $mail->Username  = 'lautarofranco@yahoo.com.ar';
-		    $mail->Password  = 'fbpyaitybqfecwsk';
-		    $mail->SMTPSecure= 'tls';//local
+		    $mail->Username  = 'yourmaildirection@example.com';
+		    $mail->Password  = 'password-example-012';
+		    $mail->SMTPSecure= 'tls';//puerto local
 		    $mail->Port      = 587;//
 			    /* puerto online
 			    $mail->SMTPSecure= 'ssl';
 			    $mail->Port      = 465;
 			    */
-			//Recipients
+		    //Recipients
 		    $mail->setFrom('lautarofranco@yahoo.com.ar', "$cor - $nom");
 		    $mail->addAddress('plautarofrancog@gmail.com');
 		    $mail->addCC('plautarofrancog@gmail.com');
